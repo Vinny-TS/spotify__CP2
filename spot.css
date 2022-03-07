@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+/* Header */
+header#cabecalho{
+    width: auto;
+    height: 75px;
+    background-color: black;
+    margin: 0vh;
+    margin-bottom: 0;
+}
+
+/* Header Logo */
+header#cabecalho img#logo{
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+/* Header Items */
+ul#menu{
+    list-style: none;
+    float: right;
+    color: white;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+ul li{
+    display: inline-block;
+    padding-inline: 15px;
+    padding-top: 10px;
+}
+
+ul#menu a.link{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 11pt;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+ul#menu a.link:hover{
+    color: #1ED760;
+    cursor: pointer;
+}
+
+/* Main Page */
+section#corpo{
+    background-image: url("img/showcase.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    text-align: center;
+    align-self: center;
+}
+ /* Middle Text */
+section#corpo h1{
+    color: #1ED760;
+    font-size: 8.75rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 900px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+}
+
+section#corpo h4{
+    color: #1ED760;
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* Button */
+section#corpo button#obtenha{
+    background-color: #1ED760;
+    color: #2941AB;
+    font-size: 15px;
+    padding: 16px 30px 16px;
+    letter-spacing: 0.2px;
+    border-radius: 500px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+    align-self: center;
+}
+
+section#corpo button#obtenha:hover{
+    cursor: pointer;
+    transform: scale(1.03) perspective(1px)
+}
+
+section#corpo button#obtenha a.link{
+    text-decoration: none;
+    color: #2941AB;
+}
+
+/* Footer */
+#footer {
+	background: black;
+	color: white;
+	padding: 80px 0;
+}
+
+#footer img#logo2{
+    margin-left: -150px;
+    height: 40px;
+}
+
+#footer .footer-content {
+    display: flex;
+    width: 60%;
+	margin: auto;
+	justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+	margin: 17px 60px;
+	list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: start;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+	margin: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover {
+	color: #1ED760;
+	cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p {
+	margin: 18px;
+    font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0.5;
+	font-size: 0.8rem;
+}
+
+/* Footer Socials */
+.socials {
+	display: flex;
+}
+
+.socials i {
+    color: white;
+	margin: 0 20px;
+	font-size: 1.7rem;
+}
+
+.socials i:hover {
+	color: #1ED760;
+	cursor: pointer;
+}
+
+/* Footer Info */
+.footer-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 87%;
+	margin-left: 5rem;
+	color: #919496;
+	font-size: 0.75rem;
+	padding-top: 50px;
+}
+
+.footer-info .footer-info-items {
+	display: flex;
+	list-style: none;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.5;
+}
+
+.footer-info .footer-info-items a{
+    color: white;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+	margin: 0 10px;
+	transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover {
+	color: #1ED760;
+	cursor: pointer;
+}
+
+.footer-info .rights{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.footer-info .rights .country {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.footer-info .rights .country a{
+    transition: all 300ms ease;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-info .rights .country p:hover {
+	color: #1ED760;
+	cursor: pointer;
+}
+
+.footer-info .rights .country .brazil-flag {
+	height: 20px;
+	width: auto;
+	display: inline-block;
+	margin-left: 10px;
+}
